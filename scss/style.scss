@@ -1,9 +1,15 @@
 @charset "UTF-8";
 @import "reset";
+
 section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   article {
     width: 300px;
     height: 300px;
+    margin: 40px;
     background: #000;
   }
 }
